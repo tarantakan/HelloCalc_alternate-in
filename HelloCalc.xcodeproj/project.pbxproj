@@ -147,7 +147,7 @@
 		3A48FD69152B8C4300A1990A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = 3A48FD6C152B8C4300A1990A /* Build configuration list for PBXProject "HelloCalc" */;
 			compatibilityVersion = "Xcode 3.2";
