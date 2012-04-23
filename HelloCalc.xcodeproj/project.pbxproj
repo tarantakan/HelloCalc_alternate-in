@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A48FD77152B8C4400A1990A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A48FD76152B8C4400A1990A /* UIKit.framework */; };
+		3A48FD79152B8C4400A1990A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A48FD78152B8C4400A1990A /* Foundation.framework */; };
+		3A48FD7B152B8C4400A1990A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A48FD7A152B8C4400A1990A /* CoreGraphics.framework */; };
+		3A48FD81152B8C4400A1990A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A48FD7F152B8C4400A1990A /* InfoPlist.strings */; };
+		3A48FD83152B8C4400A1990A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A48FD82152B8C4400A1990A /* main.m */; };
+		3A48FD8A152B8C4400A1990A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A48FD88152B8C4400A1990A /* MainStoryboard_iPhone.storyboard */; };
+		3A48FD8D152B8C4400A1990A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A48FD8B152B8C4400A1990A /* MainStoryboard_iPad.storyboard */; };
+		3A48FD90152B8C4400A1990A /* HelloCalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A48FD8F152B8C4400A1990A /* HelloCalcViewController.m */; };
+		3A48FD98152BA6BB00A1990A /* HelloCalcDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A48FD97152BA6BB00A1990A /* HelloCalcDataController.m */; };
+		3A48FD9B152BAD6C00A1990A /* CalcResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A48FD9A152BAD6C00A1990A /* CalcResult.m */; };
+		3AAF00FB153CF61600F5B804 /* HelloCalcTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF00FA153CF61600F5B804 /* HelloCalcTableViewController.m */; };
+		3AC4D79C153391E4000B40F7 /* HelloCalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4D79B153391E4000B40F7 /* HelloCalcAppDelegate.m */; };
+		3ACA1D90154219E000D43B70 /* ExpInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA1D8F154219E000D43B70 /* ExpInputAccessoryView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A48FD72152B8C4400A1990A /* HelloCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A48FD76152B8C4400A1990A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A48FD78152B8C4400A1990A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A48FD7A152B8C4400A1990A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A48FD7E152B8C4400A1990A /* HelloCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCalc-Info.plist"; sourceTree = "<group>"; };
+		3A48FD80152B8C4400A1990A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A48FD82152B8C4400A1990A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A48FD84152B8C4400A1990A /* HelloCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloCalc-Prefix.pch"; sourceTree = "<group>"; };
+		3A48FD89152B8C4400A1990A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		3A48FD8C152B8C4400A1990A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		3A48FD8E152B8C4400A1990A /* HelloCalcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloCalcViewController.h; sourceTree = "<group>"; };
+		3A48FD8F152B8C4400A1990A /* HelloCalcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloCalcViewController.m; sourceTree = "<group>"; };
+		3A48FD96152BA6BB00A1990A /* HelloCalcDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloCalcDataController.h; sourceTree = "<group>"; };
+		3A48FD97152BA6BB00A1990A /* HelloCalcDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloCalcDataController.m; sourceTree = "<group>"; };
+		3A48FD99152BAD6C00A1990A /* CalcResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcResult.h; sourceTree = "<group>"; };
+		3A48FD9A152BAD6C00A1990A /* CalcResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcResult.m; sourceTree = "<group>"; };
+		3AAF00F9153CF61600F5B804 /* HelloCalcTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloCalcTableViewController.h; sourceTree = "<group>"; };
+		3AAF00FA153CF61600F5B804 /* HelloCalcTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloCalcTableViewController.m; sourceTree = "<group>"; };
+		3AC4D79A153391E4000B40F7 /* HelloCalcAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloCalcAppDelegate.h; sourceTree = "<group>"; };
+		3AC4D79B153391E4000B40F7 /* HelloCalcAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloCalcAppDelegate.m; sourceTree = "<group>"; };
+		3ACA1D8E154219E000D43B70 /* ExpInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpInputAccessoryView.h; sourceTree = "<group>"; };
+		3ACA1D8F154219E000D43B70 /* ExpInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpInputAccessoryView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A48FD6F152B8C4400A1990A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A48FD77152B8C4400A1990A /* UIKit.framework in Frameworks */,
+				3A48FD79152B8C4400A1990A /* Foundation.framework in Frameworks */,
+				3A48FD7B152B8C4400A1990A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A48FD67152B8C4300A1990A = {
+			isa = PBXGroup;
+			children = (
+				3A48FD7C152B8C4400A1990A /* HelloCalc */,
+				3A48FD75152B8C4400A1990A /* Frameworks */,
+				3A48FD73152B8C4400A1990A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A48FD73152B8C4400A1990A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A48FD72152B8C4400A1990A /* HelloCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A48FD75152B8C4400A1990A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A48FD76152B8C4400A1990A /* UIKit.framework */,
+				3A48FD78152B8C4400A1990A /* Foundation.framework */,
+				3A48FD7A152B8C4400A1990A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A48FD7C152B8C4400A1990A /* HelloCalc */ = {
+			isa = PBXGroup;
+			children = (
+				3A48FD88152B8C4400A1990A /* MainStoryboard_iPhone.storyboard */,
+				3A48FD8B152B8C4400A1990A /* MainStoryboard_iPad.storyboard */,
+				3AC4D79A153391E4000B40F7 /* HelloCalcAppDelegate.h */,
+				3AC4D79B153391E4000B40F7 /* HelloCalcAppDelegate.m */,
+				3A48FD8E152B8C4400A1990A /* HelloCalcViewController.h */,
+				3A48FD8F152B8C4400A1990A /* HelloCalcViewController.m */,
+				3ACA1D8E154219E000D43B70 /* ExpInputAccessoryView.h */,
+				3ACA1D8F154219E000D43B70 /* ExpInputAccessoryView.m */,
+				3AAF00F9153CF61600F5B804 /* HelloCalcTableViewController.h */,
+				3AAF00FA153CF61600F5B804 /* HelloCalcTableViewController.m */,
+				3A48FD96152BA6BB00A1990A /* HelloCalcDataController.h */,
+				3A48FD97152BA6BB00A1990A /* HelloCalcDataController.m */,
+				3A48FD99152BAD6C00A1990A /* CalcResult.h */,
+				3A48FD9A152BAD6C00A1990A /* CalcResult.m */,
+				3A48FD7D152B8C4400A1990A /* Supporting Files */,
+			);
+			path = HelloCalc;
+			sourceTree = "<group>";
+		};
+		3A48FD7D152B8C4400A1990A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A48FD7E152B8C4400A1990A /* HelloCalc-Info.plist */,
+				3A48FD7F152B8C4400A1990A /* InfoPlist.strings */,
+				3A48FD82152B8C4400A1990A /* main.m */,
+				3A48FD84152B8C4400A1990A /* HelloCalc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A48FD71152B8C4400A1990A /* HelloCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A48FD93152B8C4400A1990A /* Build configuration list for PBXNativeTarget "HelloCalc" */;
+			buildPhases = (
+				3A48FD6E152B8C4400A1990A /* Sources */,
+				3A48FD6F152B8C4400A1990A /* Frameworks */,
+				3A48FD70152B8C4400A1990A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloCalc;
+			productName = HelloCalc;
+			productReference = 3A48FD72152B8C4400A1990A /* HelloCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A48FD69152B8C4300A1990A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3A48FD6C152B8C4300A1990A /* Build configuration list for PBXProject "HelloCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A48FD67152B8C4300A1990A;
+			productRefGroup = 3A48FD73152B8C4400A1990A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A48FD71152B8C4400A1990A /* HelloCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A48FD70152B8C4400A1990A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A48FD81152B8C4400A1990A /* InfoPlist.strings in Resources */,
+				3A48FD8A152B8C4400A1990A /* MainStoryboard_iPhone.storyboard in Resources */,
+				3A48FD8D152B8C4400A1990A /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A48FD6E152B8C4400A1990A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A48FD83152B8C4400A1990A /* main.m in Sources */,
+				3A48FD90152B8C4400A1990A /* HelloCalcViewController.m in Sources */,
+				3A48FD98152BA6BB00A1990A /* HelloCalcDataController.m in Sources */,
+				3A48FD9B152BAD6C00A1990A /* CalcResult.m in Sources */,
+				3AC4D79C153391E4000B40F7 /* HelloCalcAppDelegate.m in Sources */,
+				3AAF00FB153CF61600F5B804 /* HelloCalcTableViewController.m in Sources */,
+				3ACA1D90154219E000D43B70 /* ExpInputAccessoryView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A48FD7F152B8C4400A1990A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A48FD80152B8C4400A1990A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A48FD88152B8C4400A1990A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A48FD89152B8C4400A1990A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3A48FD8B152B8C4400A1990A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A48FD8C152B8C4400A1990A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A48FD91152B8C4400A1990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A48FD92152B8C4400A1990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A48FD94152B8C4400A1990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloCalc/HelloCalc-Prefix.pch";
+				INFOPLIST_FILE = "HelloCalc/HelloCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A48FD95152B8C4400A1990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloCalc/HelloCalc-Prefix.pch";
+				INFOPLIST_FILE = "HelloCalc/HelloCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A48FD6C152B8C4300A1990A /* Build configuration list for PBXProject "HelloCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A48FD91152B8C4400A1990A /* Debug */,
+				3A48FD92152B8C4400A1990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A48FD93152B8C4400A1990A /* Build configuration list for PBXNativeTarget "HelloCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A48FD94152B8C4400A1990A /* Debug */,
+				3A48FD95152B8C4400A1990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A48FD69152B8C4300A1990A /* Project object */;
+}
