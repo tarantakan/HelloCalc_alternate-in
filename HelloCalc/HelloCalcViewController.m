@@ -28,11 +28,11 @@
 
 //@synthesize delegate = _delegate;
 
-@synthesize inputScrlVw = _inputScrlVw;
+//@synthesize inputScrlVw = _inputScrlVw;
 @synthesize dataController = _dataController;
 @synthesize rsltTblVwCtrlr = _rsltTblVwCtrlr;
 @synthesize resultsTable = _resultsTable;
-@synthesize bufferOutLbl = _bufferOutLbl;
+//@synthesize bufferOutLbl = _bufferOutLbl;
 @synthesize numberInField = _numberInField;
 @synthesize feedbackLbl = _feedbackLbl;
 
@@ -68,9 +68,9 @@
     ExpInputAccessoryView *accViewToAdd = [[ExpInputAccessoryView alloc] initWithFrame:accessFrame];
     accViewToAdd.fieldToMod = self.numberInField;
     self.numberInField.inputAccessoryView = accViewToAdd;
-    [self registerForKeyboardNotifications];
-    self.inputScrlVw.alwaysBounceVertical = YES;
-    self.inputScrlVw.contentSize = CGSizeMake(320, 460);
+    //[self registerForKeyboardNotifications];
+    //self.inputScrlVw.alwaysBounceVertical = YES;
+    //self.inputScrlVw.contentSize = CGSizeMake(320, 1380);
     
     [self updateFeedback];
 }
@@ -78,10 +78,10 @@
 - (void)viewDidUnload
 {
     [self setNumberInField:nil];
-    [self setBufferOutLbl:nil];
+    //[self setBufferOutLbl:nil];
     [self setResultsTable:nil];
     [self setFeedbackLbl:nil];
-    [self setInputScrlVw:nil];
+    //[self setInputScrlVw:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -117,7 +117,7 @@
     }
 }
 
-
+/*
 // Call this method somewhere in your view controller setup code.
 
 - (void)registerForKeyboardNotifications
@@ -197,6 +197,7 @@
     self.inputScrlVw.scrollIndicatorInsets = contentInsets;
     
 }
+*/
 
 
 - (IBAction)numEnterBtn:(id)sender {
@@ -207,9 +208,7 @@
         
     }
     
-    [self.bufferOutLbl setText:self.dataController.calcBuffer];
-    
-    //[self dismissModalViewControllerAnimated:YES];
+    //[self.bufferOutLbl setText:self.dataController.calcBuffer];
     
     [self.numberInField resignFirstResponder];
     
@@ -249,7 +248,7 @@
     
     [self.dataController clearBuf];
     
-    [self.bufferOutLbl setText:self.dataController.calcBuffer];
+    //[self.bufferOutLbl setText:self.dataController.calcBuffer];
     
     [self updateFeedback];
     
@@ -259,7 +258,7 @@
     
     [self.dataController addOpToBuffer:@"+"];
     
-    [self.bufferOutLbl setText:self.dataController.calcBuffer];
+    //[self.bufferOutLbl setText:self.dataController.calcBuffer];
     
     [self dismissModalViewControllerAnimated:YES];
     
@@ -273,7 +272,7 @@
     
     [self.dataController addOpToBuffer:@"-"];
     
-    [self.bufferOutLbl setText:self.dataController.calcBuffer];
+    //[self.bufferOutLbl setText:self.dataController.calcBuffer];
     
     [self dismissModalViewControllerAnimated:YES];
     
@@ -287,7 +286,7 @@
     
     [self.dataController addOpToBuffer:@"*"];
     
-    [self.bufferOutLbl setText:self.dataController.calcBuffer];
+    //[self.bufferOutLbl setText:self.dataController.calcBuffer];
     
     [self dismissModalViewControllerAnimated:YES];
     
@@ -301,7 +300,7 @@
     
     [self.dataController addOpToBuffer:@"/"];
     
-    [self.bufferOutLbl setText:self.dataController.calcBuffer];
+    //[self.bufferOutLbl setText:self.dataController.calcBuffer];
     
     [self dismissModalViewControllerAnimated:YES];
     
